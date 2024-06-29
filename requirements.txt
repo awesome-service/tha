@@ -1,4 +1,6 @@
-    urlextract
-    phonenumbers
-    regex
-    ftfy
+urlextract
+phonenumbers
+regex
+ftfy
+unidecode
+khmercut
