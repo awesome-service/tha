@@ -21,7 +21,7 @@ setuptools.setup(
   ],
   python_requires=">3.5",
   packages=setuptools.find_packages(),
-  package_dir={"tha_fork": "tha_fork"},
+  package_dir={"tha": "tha_fork"},
   install_requires=[
     "urlextract",
     "phonenumbers",
