@@ -1,11 +1,11 @@
 import setuptools
 
-with open("README.md", "r") as f:
+with open("README.md", encoding="utf-8") as f:
   long_description = f.read()
 
 setuptools.setup(
-  name="tha",
-  version="0.1.3",
+  name="tha-fork",
+  version="0.1.4",
   description="A Khmer Text Normalization and Verbalization Toolkit.",
   long_description=long_description,
   long_description_content_type="text/markdown",
