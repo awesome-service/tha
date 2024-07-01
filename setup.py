@@ -22,10 +22,5 @@ setuptools.setup(
   python_requires=">3.5",
   packages=setuptools.find_packages(),
   package_dir={"tha": "tha"},
-  install_requires=[
-    "urlextract",
-    "phonenumbers",
-    "regex",
-    "ftfy",
-  ],
+  install_requires=open("requirements.txt").read().split("\n"),
 )
