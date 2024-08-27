@@ -148,7 +148,7 @@ def _reorder(txt, lang="km"):
     replaces = re.sub(
       "(\u17d2\u179a)(\u17d2[\u1780-\u17b3])", r"\2\1", replaces
     )  # coeng ro second
-    replaces = re.sub("(\u17d2)\u178a", "\\1\u178f", replaces)  # coeng da->ta
+
     res.append(replaces)
     i = j
   return "".join(res)
@@ -757,7 +757,6 @@ UNICODE_REPLACEMENTS = {
   "\u17c6\u17bb": "\u17bb\u17c6",
   # common misspelled words
   "រយះពេល": "រយៈពេល",
-  "រយ:": "រយៈ",
   "រយះកាល": "រយៈកាល",
   "រយ:កាល": "រយៈកាល",
   "មួយរយះ": "មួយរយៈ",
