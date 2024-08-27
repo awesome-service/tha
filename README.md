@@ -2,6 +2,11 @@
 
 Khmer Text Normalization and Verbalization Toolkit.
 
+## Development
+
+- env: python -m venv
+- activate: source env/bin/activate
+- install: pip install -r requirements.txt
 
 ## Install
 
