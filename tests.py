@@ -12,5 +12,5 @@ OUTPUT = (
 
 print("\n# Normalize", OUTPUT)
 
-pronounce_output = pronounce_processor("ឧបនាយក​") == "អ៊ុប៉ៈនាយក់"
+pronounce_output = pronounce_processor("យោងតាមការសិក្សារបស់ក្រុមហ៊ុន បានឱ្យដឹងថា គម្រោង “ដ៏មហិមា” ")
 print("\n# Normalize pronounce", pronounce_output)
