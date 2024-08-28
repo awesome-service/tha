@@ -6,6 +6,7 @@ pronounce_dict = {
   # correct pronounce with space
   "ហ្វូណន": "ហ្វូណន ",
   "មហិមា": "មៈ-ហិ-មៀ",
+  "ទេវកថា": "ទេ-វៈ-កៈ-ថា",
 }
 
 
