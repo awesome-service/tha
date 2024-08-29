@@ -12,5 +12,5 @@ pronounce_dict = {
 
 def processor(text: str):
   for k, v in pronounce_dict.items():
-    text = text.replace(k, f"{v} ({k})")
+    text = text.replace(k, v)
   return text
